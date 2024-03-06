@@ -1,6 +1,6 @@
 // backend/routes/user.js
 const express = require('express');
-
+const cors=require('cors');
 const router = express.Router();
 const zod = require("zod");
 const { User, Account } = require("../db");
