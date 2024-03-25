@@ -12,13 +12,13 @@ import { useEffect } from "react";
 
 
 function App() {
-  const token = localStorage.getItem('token');
-  useEffect(() => {
-    if (token && window.location.pathname !== '/dashboard') {
+  // const token = localStorage.getItem('token');
+  // useEffect(() => {
+  //   if (token && window.location.pathname !== '/dashboard') {
 
-      window.location.href = '/dashboard';
-    }
-  }, []);
+  //     window.location.href = '/dashboard';
+  //   }
+  // }, []);
 
   return (
     <BrowserRouter>
